@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 800px ;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(85, 0, 243, 0.534);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color:  rgba(85, 0, 243, 0.534);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 85px;
+}
+.footer {
+    background-color: rgba(140, 140, 148, 0.952);
+    min-height: 22px;
+    
+}
